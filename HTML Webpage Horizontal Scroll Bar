@@ -5,7 +5,9 @@ Occupation: Owner of Dwellinghouse Investments LLC and Subsidiaries
 Company: Dwellinghouse Investments LLC
 -->
 
-<!-- The purpose of this code is designed to create a container capable of producing a horizontal scroll bar to view images on a front end web page application designed specifically via HTML. Note: This code was tested under Odoo 18 Online as the application to proceed with development of HTML embedded code to be executed -->
+<!-- The purpose of this code is designed to create a container capable of producing a horizontal scroll bar to view images on a front end web page application designed specifically via HTML. Note: This code was tested under Odoo 18 Online as the application to proceed with development of HTML embedded code to be executed 
+My particular use-case for reference was including a Horizontal Scroll Bar to list my real estate portfolio assets under my overall holding company 
+Dwellinghouse Investments LLC-->
 
 <title>Current Portfolio Listings-Horizontal Scroller</title>
  
