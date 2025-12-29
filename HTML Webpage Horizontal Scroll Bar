@@ -41,10 +41,10 @@ Dwellinghouse Investments LLC-->
 
 <!-- Importing Images for Horizontal Scroll Bar and Styling height, width, loading, style, font family, font size, character boldness, and line breaks within descriptors that go under images. 
 
-NOTE: Please remove the brackets ie.) "[..]" and quotations once inserting desired text and inputs as guided below within the img src and other locations where [] are located in the text below. -->
+NOTE: Please remove the brackets ie.) "[..]" and quotations once inserting desired text and inputs on lines 46-57 as guided below within the img src and other locations where [] are located in the text below. -->
 
-<h1 style="font-family: 'Header 2'; font-size: 32px;">View Our Portfolio- We Lead By Example To Gain Your Trust</h1>
-<p style="font-family:'Normal'; font-size: 22px;"> Past and Current Assets within Dwellinghouse Investments LLC</p>
+<h1 style="font-family: 'Header 2'; font-size: 32px;">["Enter your preferred header here prior to scrolling content"]</h1>
+<p style="font-family:'Normal'; font-size: 22px;">["Enter body paragraph content you would like displayed under this section"]</p>
 
 <div class="scroll-container">
   <div class="scroll-content"><img src= ["Insert your source directory location here"]?height=256" loading="lazy" style="height: 256px; width:300px;"><h2 style="font-family: 'Times New Roman'; font-size: 30px;">["Place asset type here"]<br><b>["Place brief label of asset here"]</b><br></h2></div>
@@ -54,6 +54,6 @@ NOTE: Please remove the brackets ie.) "[..]" and quotations once inserting desir
 
 <div class="Button for Portfolio Property Redirect">
     <button style="background-color: light grey; color:white ; border-radius: 8px; position:relative">
-        <a href="Enter URL to redirect to here">["Place button label here"]</a>
+        <a href=["Enter URL to redirect to here">["Place button label here"]</a>
    
 </button></div>
