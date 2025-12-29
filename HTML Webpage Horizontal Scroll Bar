@@ -9,7 +9,7 @@ Company: Dwellinghouse Investments LLC
 My particular use-case for reference was including a Horizontal Scroll Bar to list my real estate portfolio assets under my overall holding company 
 Dwellinghouse Investments LLC-->
 
-<title>Current Portfolio Listings-Horizontal Scroller</title>
+<title>Current Portfolio Listings-Horizontal Scroller</title> <!-- Listing overall Title to the code referenced below. Note: This is not header to your content -->
  
 <style>
   .scroll-container {
@@ -43,10 +43,10 @@ Dwellinghouse Investments LLC-->
 
 NOTE: Please remove the brackets ie.) "[..]" and quotations once inserting desired text and inputs on lines 46-57 as guided below within the img src and other locations where [] are located in the text below. -->
 
-<h1 style="font-family: 'Header 2'; font-size: 32px;">["Enter your preferred header here prior to scrolling content"]</h1>
-<p style="font-family:'Normal'; font-size: 22px;">["Enter body paragraph content you would like displayed under this section"]</p>
+<h1 style="font-family: 'Header 2'; font-size: 32px;">["Enter your preferred header here prior to scrolling image content"]</h1>
+<p style="font-family:'Normal'; font-size: 22px;">["Enter body paragraph content you would like displayed under header of this section"]</p>
 
-<div class="scroll-container">
+<div class="scroll-container"> <!-- Listing 4 images to scroll horizontally along x-axis in this example on lines 50 through 53 -->
   <div class="scroll-content"><img src= ["Insert your source directory location here"]?height=256" loading="lazy" style="height: 256px; width:300px;"><h2 style="font-family: 'Times New Roman'; font-size: 30px;">["Place asset type here"]<br><b>["Place brief label of asset here"]</b><br></h2></div>
     <div class="scroll-content"><img src=["Insert your source directory location here"]?height=256" loading="lazy" style="height: 256px; width:300px;"><h2 style="font-family: 'Times New Roman'; font-size: 30px;">["Place asset type here"]<br><b>["Place brief label of asset here"]</b><br></h2></div>
     <div class="scroll-content"><img src=["Insert your source directory location here"]?height=256" loading="lazy" style="height: 256px; width:300px;"><h2 style="font-family: 'Times New Roman'; font-size: 30px;">["Place asset type here"]<br><b>["Place brief label of asset here"]</b><br></h2></div>
