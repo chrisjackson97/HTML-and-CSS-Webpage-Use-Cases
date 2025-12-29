@@ -1,0 +1,57 @@
+<!-- 
+Date: 12-29-2025
+Author: Christopher M. Jackson
+Occupation: Owner of Dwellinghouse Investments LLC and Subsidiaries
+Company: Dwellinghouse Investments LLC
+-->
+
+<!-- The purpose of this code is designed to create a container capable of producing a horizontal scroll bar to view images on a front end web page application designed specifically via HTML. Note: This code was tested under Odoo 18 Online as the application to proceed with development of HTML embedded code to be executed -->
+
+<title>Current Portfolio Listings-Horizontal Scroller</title>
+ 
+<style>
+  .scroll-container {
+    width: 100%; <!-- *This line a fixed width for the container. It is defined as 100% width so that scale is based upon the screen that a user is coding upon and not a fixed pixel count. -->
+
+    height: 400px; <!-- Defined fixed height for container -->
+
+    overflow-x: auto; <!-- Enables horizontal scrolling when content overflows -->
+
+    overflow-y:auto; <!-- Crucial to have this parameter set if webpage should have x-axis scroll bar on both mobile devices and laptop screens. Note: Failure to include an overflow-y: auto parameter will cause mobile phone view to fail to scroll listing of properties that stretch beyond the dimensions of the container. -->
+
+    white-space: nowrap; <!-- Prevents content from wrapping to the next line and maintains on x-axis 90 degrees -->
+    border: 3px #ccc;
+    padding: 10px;
+    position: relative
+  }
+
+  .scroll-content {
+    display: inline-block; <!--  Make content elements display in a row -->
+    padding: 5px 15px;
+    background-color: white;
+    border-right: 4px solid lightgrey;
+    margin-right: 10px;
+    border-radius: 5px;
+    position: relative
+  }
+
+</style>
+
+<!-- Importing Images for Horizontal Scroll Bar and Styling height, width, loading, style, font family, font size, character boldness, and line breaks within descriptors that go under images. 
+
+NOTE: Please remove the brackets ie.) "[..]" and quotations once inserting desired text and inputs as guided below within the img src and other locations where [] are located in the text below. -->
+
+<h1 style="font-family: 'Header 2'; font-size: 32px;">View Our Portfolio- We Lead By Example To Gain Your Trust</h1>
+<p style="font-family:'Normal'; font-size: 22px;"> Past and Current Assets within Dwellinghouse Investments LLC</p>
+
+<div class="scroll-container">
+  <div class="scroll-content"><img src= ["Insert your source directory location here"]?height=256" loading="lazy" style="height: 256px; width:300px;"><h2 style="font-family: 'Times New Roman'; font-size: 30px;">["Place asset type here"]<br><b>["Place brief label of asset here"]</b><br></h2></div>
+    <div class="scroll-content"><img src=["Insert your source directory location here"]?height=256" loading="lazy" style="height: 256px; width:300px;"><h2 style="font-family: 'Times New Roman'; font-size: 30px;">["Place asset type here"]<br><b>["Place brief label of asset here"]</b><br></h2></div>
+    <div class="scroll-content"><img src=["Insert your source directory location here"]?height=256" loading="lazy" style="height: 256px; width:300px;"><h2 style="font-family: 'Times New Roman'; font-size: 30px;">["Place asset type here"]<br><b>["Place brief label of asset here"]</b><br></h2></div>
+    <div class="scroll-content"><img src=["Insert your source directory location here"]?height=256" loading="lazy" style="height: 256px; width:300px;"><h2 style="font-family: 'Times New Roman'; font-size: 30px;">["Place asset type here"]<br><b>["Place brief label of asset here"]</b><br></h2></div>
+
+<div class="Button for Portfolio Property Redirect">
+    <button style="background-color: light grey; color:white ; border-radius: 8px; position:relative">
+        <a href="Enter URL to redirect to here">["Place button label here"]</a>
+   
+</button></div>
